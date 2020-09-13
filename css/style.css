@@ -25,7 +25,7 @@ html {
   --clr-main: rgb(249, 249, 249);
 
   --fs-h1: 9vw;
-  --fs-h2: 2.25rem;
+  --fs-h2: 1.65rem;
   --fs-h5: 2.5vw;
   --fs-body: 1rem;
   --fs-nav: 1.2vw;
@@ -129,12 +129,12 @@ h1 {
   font-family: var(--ff-six);
 }
 h5 {
-  font-size: var(--fs-h5);
+  font-size: var(--fs-nav);
   font-family: var(--ff-six);
 }
 h2 {
   font-size: var(--fs-h2);
-  font-family: var(--ff-six);
+  font-family: var(--ff-four);
   text-align: center;
   margin: 2px;
 }
@@ -192,13 +192,12 @@ header ul li a {
 }
 @media screen and (min-width: 1020px) {
   h1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   h5 {
-    font-size: 2vw;
-    margin-left: 12.5%;
+    font-size: 1.5vw;
+    margin-left: 1.5%;
     padding: 15px;
-    text-decoration: underline;
   }
 }
 
@@ -232,6 +231,10 @@ img {
 .ptitle {
   margin-left: 2%;
 }
+.linkedimg:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 
 @media screen and (max-width: 767px) {
   .wrapper {
@@ -257,7 +260,7 @@ img {
   img {
     max-width: 295px;
     max-height: 166px;
-    margin-left: 30%;
+    margin-left: 33%;
   }
   h5 {
     font-size: 7vw;
@@ -277,7 +280,7 @@ button {
   }
   .nav {
     position: fixed;
-    background-color: black;
+    background-color: rgb(52, 67, 215);
     top: 0;
     bottom: 0;
     left: 0;
