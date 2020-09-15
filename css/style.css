@@ -234,6 +234,7 @@ img {
 .linkedimg:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
 }
 
 @media screen and (max-width: 767px) {
