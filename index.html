@@ -7,6 +7,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link
     href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap"
     rel="stylesheet"
   /><link
@@ -58,6 +62,7 @@
   <body>
     <header>
       <header>
+          <!--Navigation-->
         <button class="nav-toggle" aria-label="toggle navigation">
           <span class="hamburger"></span>
         </button>
@@ -85,74 +90,65 @@
         </nav>
       </header>
     </header>
-
     <!-- Intro-->
     <section class="intro">
       <div class="top">
         <div class="toppage">
           <h1>Abdirrahman</h1>
-          <!-- <p>currently learning..</p> -->
         </div>
-        
       </div>
-    </section>
+    </section class="project">
+    <!--Template code for this section is from https://codepen.io/rafaelavlucas/pen/rQWJYG-->
 
-    <!-- Projects -->
-    <section class="projects">
-      <h5>Projects</h5>
-      <div class="wrapper">
-        <section class="columns">
-          <div class="column">
-            <h2 class="ptitle"><a href="https://github.com/Abdirrahman/React-Native-Template">React Native Template</h2></a>
-            <img src="/stills/phone.png" />
+      <div class="content">
+        <!-- card -->
+        <div class="card">
+          <div class="icon"><i class="material-icons md-36">mic</i></div>
+          <p class="title">News App</p>
+          <p class="text"><a href="https://github.com/Abdirrahman/News-App" target="_blank">Code</a> <a href="https://am-news.netlify.app/" target="_blank">Live</a></p>
+        </div>
+        <!-- end card -->
+        <!-- card -->
+        <div class="card">
+          <div class="icon"><i class="material-icons md-36">search</i></div>
+          <p class="title">Quiz</p>
+          <p class="text"><a href="https://github.com/Abdirrahman/Quiz" target="_blank">Code</a> <a href="https://quiz-am.netlify.app/" target="_blank">Live</a></p>
+        </div>
+        <!-- end card -->
+        <!-- card -->
+        <div class="card">
+          <div class="icon">
+            <i class="material-icons md-36">mobile_screen_share</i>
           </div>
-
-          <div class="column">
-            <h2 class="ptitle">
-              <a href="https://github.com/Abdirrahman/News-App"
-                >Voice News App</a
-              >
-            </h2>
-            <a class="linkedimg" href="https://am-news.netlify.app/"><img src="/stills/news.png" /> </a>
-          </div>
-
-          <div class="column">
-            <h2 class="ptitle">
-              <a href="https://github.com/Abdirrahman/Quiz">Quiz</a>
-            </h2>
-             <a  class="linkedimg" href="https://quiz-am.netlify.app/"> <img src="/stills/files-and-folders.png" /> </a>
-          </div>
-
-          <div class="column">
-            <h2 class="ptitle">
-              <a href="">Twitter Bot</a>
-            </h2>
-            <a  class="linkedimg" href="https://twitter.com/botprayertimes"> <img src="/stills/twitter.png" /> </a>
-          </div>
-
-          <div class="column">
-            <h2 class="ptitle">
-              <a href="https://github.com/Abdirrahman/Sudoku">Sudoku Solver</a>
-            </h2>
-            <img src="/stills/sudoku.png" />
-          </div>
-
-          <div class="column">
-            <h2 class="ptitle">
-              <a href="">Rust Snake Game</a>
-            </h2>
-            <img src="/stills/cog.png" />
-          </div>
-        </section>
+          <p class="title">React Native Template</p>
+          <p class="text"><a href="https://github.com/Abdirrahman/React-Native-Template" target="_blank">Code</a></p>
+        </div>
+        <!-- end card -->
       </div>
+      <!-- 2nd part -->
+      <div class="content">
+        <!-- card -->
+        <div class="card">
+          <div class="icon"><i class="material-icons md-36">announcement</i></div>
+          <p class="title">Twitter Bot</p>
+          <p class="text"><a href="" target="_blank">Code</a> <a href="https://twitter.com/botprayertimes" target="_blank">Live</a></p>
+        </div>
+        <!-- card -->
+        <div class="card">
+            <div class="icon"><i class="material-icons md-36">grid_on</i></div>
+            <p class="title">Sudoku Solver</p>
+            <p class="text"><a href="https://github.com/Abdirrahman/Sudoku" target="_blank">Code</a></p>
+          </div>
+          <!-- end card -->
+          <!-- card -->
+          <div class="card">
+            <div class="icon">
+              <i class="material-icons md-36">settings</i>
+            </div>
+            <p class="title">Rust Snake Game</p>
+            <p class="text"><a href="" target="_blank">Coming</a> <a href="" target="_blank">Soon</a></p>
+          </div>
     </section>
-    <!-- <section>
-      <p class="notes">
-        *Click title for the code and icon for the live verison.
-      </p>
-      <p class="noted">**Live verision for Sudoku Solver is not up.</p>
-    </section> -->
-
     <script src="js/index.js"></script>
   </body>
 </html>
