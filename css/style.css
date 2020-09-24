@@ -256,7 +256,7 @@ header ul li a {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
-  border: 2px solid rgba(109, 107, 107, 0.12);
+  border: 3px solid rgba(107, 108, 109, 0.12);
   font-size: 26px;
   transition: all 0.3s ease;
   position: relative;
